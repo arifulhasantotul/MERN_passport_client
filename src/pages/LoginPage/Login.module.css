@@ -1,0 +1,86 @@
+.subtitle {
+  font-size: 2.2rem;
+  color: #473558;
+}
+
+.submit_btn_register,
+.submit_btn,
+.login_input {
+  min-width: 28rem;
+  border: 2px solid #666666;
+  border-radius: 1rem;
+  color: #707070;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  margin: 1.2rem;
+  padding: 1rem;
+}
+.submit_btn_register,
+.submit_btn {
+  background: #625a99;
+  border: none;
+  color: #fff;
+  margin-bottom: 4rem;
+  cursor: pointer;
+}
+.submit_btn_register {
+  margin-bottom: -1rem;
+}
+.or {
+  position: absolute;
+  bottom: 0.4rem;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #333333;
+  min-width: 5rem;
+  font-size: 1.6rem;
+  margin-top: -1.5rem;
+  background: #fff;
+}
+
+.third_icon {
+  font-size: 3.2rem;
+  margin: 2rem 2rem;
+  cursor: pointer;
+}
+.blue {
+  fill: #3b5998;
+}
+.account {
+  font-size: 1.5rem;
+  color: #707070;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+.account Link,
+.account a {
+  color: #0d99ff;
+  text-decoration: none;
+  font-weight: 600;
+}
+.err_msg {
+  max-width: 28rem;
+  font-size: 12px;
+  color: red;
+  font-weight: bold;
+  display: none;
+  margin: 0 auto;
+}
+.login_input:invalid[focused="true"] {
+  border: 2px solid red;
+}
+
+.login_input:invalid[focused="true"] ~ span {
+  display: block;
+}
+.account a:hover {
+  text-decoration: underline;
+}
+@media (max-width: 1200px) {
+}
+@media (max-width: 1024px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 500px) {
+}
